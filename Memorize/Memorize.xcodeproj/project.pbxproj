@@ -15,6 +15,8 @@
 		DC54FCED24EB230A00B4E144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC54FCEB24EB230A00B4E144 /* LaunchScreen.storyboard */; };
 		DC54FCF824EB230A00B4E144 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FCF724EB230A00B4E144 /* MemorizeTests.swift */; };
 		DC54FD0324EB230A00B4E144 /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FD0224EB230A00B4E144 /* MemorizeUITests.swift */; };
+		DC54FD1124EB4EE300B4E144 /* MemeryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FD1024EB4EE300B4E144 /* MemeryGame.swift */; };
+		DC54FD1324EB55F300B4E144 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FD1224EB55F300B4E144 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DC54FCFE24EB230A00B4E144 /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC54FD0224EB230A00B4E144 /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
 		DC54FD0424EB230A00B4E144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54FD1024EB4EE300B4E144 /* MemeryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeryGame.swift; sourceTree = "<group>"; };
+		DC54FD1224EB55F300B4E144 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DC54FCE024EB230900B4E144 /* AppDelegate.swift */,
 				DC54FCE224EB230900B4E144 /* SceneDelegate.swift */,
 				DC54FCE424EB230900B4E144 /* ContentView.swift */,
+				DC54FD1224EB55F300B4E144 /* EmojiMemoryGame.swift */,
+				DC54FD1024EB4EE300B4E144 /* MemeryGame.swift */,
 				DC54FCE624EB230A00B4E144 /* Assets.xcassets */,
 				DC54FCEB24EB230A00B4E144 /* LaunchScreen.storyboard */,
 				DC54FCEE24EB230A00B4E144 /* Info.plist */,
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC54FD1124EB4EE300B4E144 /* MemeryGame.swift in Sources */,
 				DC54FCE124EB230900B4E144 /* AppDelegate.swift in Sources */,
 				DC54FCE324EB230900B4E144 /* SceneDelegate.swift in Sources */,
 				DC54FCE524EB230900B4E144 /* ContentView.swift in Sources */,
+				DC54FD1324EB55F300B4E144 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
