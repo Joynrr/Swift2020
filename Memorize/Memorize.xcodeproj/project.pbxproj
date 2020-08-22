@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC54FCE124EB230900B4E144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FCE024EB230900B4E144 /* AppDelegate.swift */; };
 		DC54FCE324EB230900B4E144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FCE224EB230900B4E144 /* SceneDelegate.swift */; };
-		DC54FCE524EB230900B4E144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FCE424EB230900B4E144 /* ContentView.swift */; };
+		DC54FCE524EB230900B4E144 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54FCE424EB230900B4E144 /* EmojiMemoryGameView.swift */; };
 		DC54FCE724EB230A00B4E144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54FCE624EB230A00B4E144 /* Assets.xcassets */; };
 		DC54FCEA24EB230A00B4E144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54FCE924EB230A00B4E144 /* Preview Assets.xcassets */; };
 		DC54FCED24EB230A00B4E144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC54FCEB24EB230A00B4E144 /* LaunchScreen.storyboard */; };
@@ -40,7 +40,7 @@
 		DC54FCDD24EB230900B4E144 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC54FCE024EB230900B4E144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC54FCE224EB230900B4E144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC54FCE424EB230900B4E144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC54FCE424EB230900B4E144 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		DC54FCE624EB230A00B4E144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC54FCE924EB230A00B4E144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC54FCEC24EB230A00B4E144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				DC54FCE024EB230900B4E144 /* AppDelegate.swift */,
 				DC54FCE224EB230900B4E144 /* SceneDelegate.swift */,
-				DC54FCE424EB230900B4E144 /* ContentView.swift */,
+				DC54FCE424EB230900B4E144 /* EmojiMemoryGameView.swift */,
 				DC54FD1224EB55F300B4E144 /* EmojiMemoryGame.swift */,
 				DC54FD1024EB4EE300B4E144 /* MemeryGame.swift */,
 				DC54FCE624EB230A00B4E144 /* Assets.xcassets */,
@@ -276,7 +276,7 @@
 				DC54FD1124EB4EE300B4E144 /* MemeryGame.swift in Sources */,
 				DC54FCE124EB230900B4E144 /* AppDelegate.swift in Sources */,
 				DC54FCE324EB230900B4E144 /* SceneDelegate.swift in Sources */,
-				DC54FCE524EB230900B4E144 /* ContentView.swift in Sources */,
+				DC54FCE524EB230900B4E144 /* EmojiMemoryGameView.swift in Sources */,
 				DC54FD1324EB55F300B4E144 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ import SwiftUI
  
  */
 
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     private var model1: MemoryGame<String> =
         MemoryGame<String>(numberPairsOfCard: 2, cardContentFactory:{ (pairIndex: Int) -> String in
             return "👻"
@@ -33,13 +33,16 @@ class EmojiMemoryGame {
     private var model3: MemoryGame<String> =
         MemoryGame<String>(numberPairsOfCard: 2){ _ in"👻"}
     
-    private(set) var model: MemoryGame<String> = EmojiMemoryGame.createEmojiMemoryGame()
+    // everytime model changed, @published will call obseravbleobject.send()
+    @Published private(set) var model: MemoryGame<String> = EmojiMemoryGame.createEmojiMemoryGame()
     static func createEmojiMemoryGame() -> MemoryGame<String>{
-        let emojis: Array<String> = ["👻","🥶","😚","😢"]
+        let emojis: Array<String> = ["👻","🥶","😚"]
         return MemoryGame<String>(numberPairsOfCard: emojis.count) {pairIndex in
             return emojis[pairIndex]}
     }
     
+    
+    // MARK: - Access to the Model
     var cards: Array<MemoryGame<String>.Card> {
         model.cards
     }

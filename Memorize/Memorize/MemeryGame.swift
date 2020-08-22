@@ -18,11 +18,27 @@ struct MemoryGame<CardContent>{
             cards.append(Card(content: content, id: pairIndex * 2))
             cards.append(Card(content: content, id: pairIndex * 2 + 1))
         }
-        cards.shuffle()
+       cards.shuffle()
     }
     
-    func choose(card: Card){
+    mutating func choose(card: Card){
         print("card chosen: \(card)")
+        /*
+            always is copy in struct
+            self connot be changed, unless add mutating keyword
+         */
+        let chosenIndex: Int = self.index(of:card)
+        self.cards[chosenIndex].isFaceUp = !self.cards[chosenIndex].isFaceUp
+    }
+    
+    func index(of card: Card) -> Int{
+        for index in 0..<self.cards.count{
+            if self.cards[index].id == card.id{
+                return index
+            }
+        }
+        return -1  // TODO: bogus !
+       
     }
     
     struct Card: Identifiable {
